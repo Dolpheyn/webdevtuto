@@ -1,0 +1,42 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+}
+
+.header{
+    text-align: center;
+}
+
+.header ul{
+    margin: 0;
+    list-style: none;
+}
+
+.header li{
+    display: inline;
+    margin: 0 5px;
+}
+
+.header a{
+    text-decoration: none;
+}
+
+.main-content{
+    margin: 0 auto;
+    width: 75%;
+    font-size: 1.5em;
+}
+
+.footer{
+    text-align: center;
+    display: flex;
+}
+
+.footer ul{
+    margin: 0;
+    list-style: none;
+}
