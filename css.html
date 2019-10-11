@@ -7,44 +7,55 @@
 </head>
 <body>
 <header class="header">
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="feedback.html">Feedback Form</a></li>
-    </ul>
-    <h1 class="brand-name">Title</h1>
-</header>
-
-<div class="container main-content">
-    <div>
-        <p>Read About</p>
-        <a href="css.html"><img alt="css"></a>
-        <a href="html.html"><img alt="html"></a>
-        <a href="js.html"><img alt="js"></a>
+    <div class="nav">
+        <ul>
+            <a href="index.html"><li>Home</li></a>
+            <a href="about.html"><li>About Me</li></a>
+            <a href="feedback.html"><li>Feedback Form</li></a>
+        </ul>
     </div>
 
-    <h1>CSS</h1>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium beatae autem 
-        nesciunt qui sequi omnis nisi ex, eos natus assumenda molestiae odit quam unde maxime 
-        aspernatur eveniet veniam similique delectus!
-    </p>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium beatae autem 
-        nesciunt qui sequi omnis nisi ex, eos natus assumenda molestiae odit quam unde maxime 
-        aspernatur eveniet veniam similique delectus!Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium beatae autem 
-        nesciunt qui sequi omnis nisi ex, eos natus assumenda molestiae odit quam unde maxime 
-        aspernatur eveniet veniam similique delectus!Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium beatae autem 
-        nesciunt qui sequi omnis nisi ex, eos natus assumenda molestiae odit quam unde maxime 
-        aspernatur eveniet veniam similique delectus!
-    </p>    
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium beatae autem 
-        nesciunt qui sequi omnis nisi ex, eos natus assumenda molestiae odit quam unde maxime 
-        aspernatur eveniet veniam similique delectus!
-    </p>
-    <a href="html.html">Chapter 1: HTML</a>
-    <a href="js.html">Chapter 3: Javascript</a>
+    <h1 class="brand-logo">Brand</h1>
+</header>
+
+<div class="container content">
+
+    <div class="topics-list">
+        <p class="text-main text-large">Read About</p>
+        <ul>
+            <li><a href="html.html"><img id="logo-html" src="img/logo-html.png" alt="html"></a><p>HTML</p></li>
+            <li><a href="css.html"><img src="img/logo-css.png" alt="css"></a><p>CSS</p></li>
+            <li><a href="js.html"><img src="img/logo-js.png" alt="js"></a><p>JavaScript</p></li>
+        </ul>        
+    </div>
+
+    <div class="main-content">
+        <h1 class="text-main text-large">Chapter 2: CSS</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium beatae autem 
+            nesciunt qui sequi omnis nisi ex, eos natus assumenda molestiae odit quam unde maxime 
+            aspernatur eveniet veniam similique delectus!
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium beatae autem 
+            nesciunt qui sequi omnis nisi ex, eos natus assumenda molestiae odit quam unde maxime 
+            aspernatur eveniet veniam similique delectus!Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium beatae autem 
+            nesciunt qui sequi omnis nisi ex, eos natus assumenda molestiae odit quam unde maxime 
+            aspernatur eveniet veniam similique delectus!Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium beatae autem 
+            nesciunt qui sequi omnis nisi ex, eos natus assumenda molestiae odit quam unde maxime 
+            aspernatur eveniet veniam similique delectus!
+        </p>    
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium beatae autem 
+            nesciunt qui sequi omnis nisi ex, eos natus assumenda molestiae odit quam unde maxime 
+            aspernatur eveniet veniam similique delectus!
+        </p>
+
+        <div class="container page-selector">
+            <a class="btn btn-dark" href="html.html">Chapter 1: HTML</a>
+            <a class="btn btn-dark" href="js.html">Chapter 3: Javascript</a>
+        </div>        
+    </div>
 </div>
 
 <footer class="footer">

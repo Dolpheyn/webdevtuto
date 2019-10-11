@@ -7,20 +7,35 @@
 </head>
 <body>
 <header class="header">
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="feedback.html">Feedback Form</a></li>
-    </ul>
-    <h1 class="brand-name">Title</h1>
+    <div class="nav">
+        <ul>
+            <a href="index.html"><li>Home</li></a>
+            <a href="about.html"><li>About Me</li></a>
+            <a href="feedback.html"><li>Feedback Form</li></a>
+        </ul>
+    </div>
+    
+    <h1 class="brand-logo">Brand</h1>
 </header>
 
-<div class="container main-content">
-    <h1>Feedback</h1>
-    <form action="">
-        <label for="input1">Input 1</label>
-        <input name="input1" type="text">
-    </form>
+<div class="container content">
+
+    <div class="topics-list">
+        <p class="text-main text-large">Read About</p>
+        <ul>
+            <li><a href="html.html"><img id="logo-html" src="img/logo-html.png" alt="html"></a><p>HTML</p></li>
+            <li><a href="css.html"><img src="img/logo-css.png" alt="css"></a><p>CSS</p></li>
+            <li><a href="js.html"><img src="img/logo-js.png" alt="js"></a><p>JavaScript</p></li>
+        </ul>        
+    </div>
+
+    <div class="main-content">
+        <h1 class="text-main text-large">Feedback Form</h1>
+        <form action="">
+            <label for="input1">Input 1</label>
+            <input name="input1" type="text">
+        </form>
+    </div>
 </div>
 
 <footer class="footer">

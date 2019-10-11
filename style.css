@@ -1,42 +1,146 @@
 html, body{
     margin: 0;
     padding: 0;
+    background-color: #171717;
 }
 
 .container{
     width: 100%;
 }
 
-.header{
-    text-align: center;
+.text-main{
+    color: white;
 }
 
-.header ul{
+.text-large{
+    font-size: 2em;
+}
+
+.header{
+    background-color: rgba(255, 255, 255, .05);
+    box-shadow: 2px 2px rgba(255, 255, 255, .3);
+    text-align: center;
+    padding-bottom: 10px;
+    
+}
+
+.nav {
+    font-size: 1.4em;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.nav ul{
     margin: 0;
+    padding: 0;
     list-style: none;
 }
 
-.header li{
-    display: inline;
-    margin: 0 5px;
+.nav li{
+    display: inline-block;
+    border-bottom: solid 1px white;
+    width: 240px;
+    padding: 0 0 20px 0;
 }
 
-.header a{
+.nav a{
     text-decoration: none;
+    color: aqua;
 }
 
-.main-content{
+.nav li:hover{
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.brand-logo{
+    color: aqua;
+    margin: 0;
+    font-size: 4em;
+}
+
+.topics-list p{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 20px;
+}
+
+
+.topics-list ul{
+    text-align: center;
     margin: 0 auto;
-    width: 75%;
+    list-style: none;
+}
+
+.topics-list li{
+    margin: 0 50px;
+    display: inline-block;
+    text-align: center;
+}
+.topics-list img{
+    max-width: 80px;
+}
+
+#logo-html{
+    max-width: 115px;
+}
+
+.content{
+    background-color: #2A3840;
+    box-shadow: 2px 2px rgba(255, 255, 255, .3);
+    color: rgba(200, 200, 200, .8);
+    /* background-color: cyan; */
+    margin: 20px auto;
+    padding: 20px 0;
+    width: 65%;
     font-size: 1.5em;
 }
 
+.main-content{
+    padding: 0 20px;    
+    font-size: 1.5em;
+}
+
+.page-selector{
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-selector a{
+    text-decoration: none;      
+    color: #6A777C;
+}
+
+.align-right{
+    text-align: right;
+}
+
+.page-selector a:hover{
+    background-color: #70C989;    
+}
+
 .footer{
+    background-color: rgba(255, 255, 255, .05);
+    box-shadow: 0 0 2px 2px rgba(255, 255, 255, .3);
     text-align: center;
+    padding-bottom: 10px;
     display: flex;
 }
 
 .footer ul{
     margin: 0;
     list-style: none;
+}
+
+.btn{
+    padding: 5px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    height: 50px;
+    min-width: 200px;
+}
+
+.btn-dark{
+    background-color: #20272D;
 }
