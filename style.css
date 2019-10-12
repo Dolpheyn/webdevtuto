@@ -4,6 +4,13 @@ html, body{
     background-color: #171717;
 }
 
+@media (max-width: 1000px) {
+    .content {
+      width: 85% !important;
+    }
+  }
+
+
 a{
     text-decoration: none;
 }
@@ -114,7 +121,6 @@ a{
     background-color: #2A3840;
     box-shadow: 2px 2px rgba(255, 255, 255, .3);
     color: rgba(200, 200, 200, .8);
-    /* background-color: cyan; */
     margin: 20px auto;
     padding: 20px 0;
     width: 65%;
