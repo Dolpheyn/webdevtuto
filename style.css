@@ -166,7 +166,7 @@ a{
 
 .social-media-list ul{
     text-align: end;
-    margin: 0 auto;
+    margin: 10px auto;
     list-style: none;
 }
 
@@ -176,7 +176,7 @@ a{
     text-align: center;
 }
 .social-media-list img{
-    max-height: 50px;
+    max-height: 40px;
 }
 
 .feedback form{
