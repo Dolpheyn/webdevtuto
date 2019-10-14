@@ -158,6 +158,7 @@ video{
 
 .page-selector a:hover{
     background-color: #70C989;    
+    color: black;
 }
 
 .footer{
