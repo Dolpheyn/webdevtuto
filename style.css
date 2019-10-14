@@ -13,6 +13,21 @@ html, body{
 
 a{
     text-decoration: none;
+    color: inherit;
+}
+
+.vid-src{
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: .8em;
+}
+
+.vid-src a{
+    text-decoration: underline;
+}
+
+video{
+    width: 100%;
 }
 
 .container{
