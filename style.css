@@ -63,6 +63,10 @@ video{
     
 }
 
+audio{
+    color: #171717;
+}
+
 .nav {
     font-size: 1.4em;
     display: block;
