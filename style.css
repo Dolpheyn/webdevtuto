@@ -69,6 +69,30 @@ video{
     margin-bottom: 30px;
 }
 
+.justify{
+    text-align: justify;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.prereq{
+    text-align: center;
+}
+
+.prereq td{
+    width: 50%;
+}
+
+.left-indent{
+    margin-left: 50px;
+}
+
+.left-indent li{
+    margin-bottom: 20px;
+}
+
 .nav ul{
     margin: 0;
     padding: 0;
@@ -146,7 +170,7 @@ video{
 .content{
     background-color: #2A3840;
     box-shadow: 2px 2px rgba(255, 255, 255, .3);
-    color: rgba(200, 200, 200, .8);
+    color: rgba(230, 230, 230, .7);
     margin: 20px auto;
     padding: 20px 0;
     width: 65%;

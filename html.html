@@ -34,24 +34,59 @@
 
     <div class="main-content">
         <h1 class="text-main text-large">Chapter 1: HTML</h1>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium beatae autem 
-            nesciunt qui sequi omnis nisi ex, eos natus assumenda molestiae odit quam unde maxime 
-            aspernatur eveniet veniam similique delectus!
+        <p class="justify">
+                In this article we cover the absolute basics of HTML, to get you started. 
+                We define elements, attributes, and all the other important terms you may have heard, 
+                and where they fit into the language. We also show how an HTML element is structured, 
+                how a typical HTML page is structured, and explain other important basic language features. 
         </p>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium beatae autem 
-            nesciunt qui sequi omnis nisi ex, eos natus assumenda molestiae odit quam unde maxime 
-            aspernatur eveniet veniam similique delectus!Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium beatae autem 
-            nesciunt qui sequi omnis nisi ex, eos natus assumenda molestiae odit quam unde maxime 
-            aspernatur eveniet veniam similique delectus!Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium beatae autem 
-            nesciunt qui sequi omnis nisi ex, eos natus assumenda molestiae odit quam unde maxime 
-            aspernatur eveniet veniam similique delectus!
+
+        <table class="prereq">
+                <tr>
+                    <th>Prerequisites</th>
+                    <th>Objective</th>
+                </tr>
+                <tr>
+                    <td>
+                        Basic computer literacy, basic software installed, basic knowledge of 
+                        working with files.
+                    </td>
+                    <td>
+                        To gain basic familiarity with the HTML language.
+                    </td>
+                </tr>
+            </table>
+
+        <p class="justify">
+                HTML (Hypertext Markup Language) is not a programming language; it is a markup 
+                language used to tell your browser how to structure the web pages you visit. 
+                It can be as complicated or as simple as the web developer wishes it to be. 
+                HTML consists of a series of elements, which you use to enclose, wrap, or mark 
+                up different parts of the content to make it appear or act a certain way. The 
+                enclosing tags can make a bit of content into a hyperlink to link to another 
+                page on the web, italicize words, and so on
         </p>    
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium beatae autem 
-            nesciunt qui sequi omnis nisi ex, eos natus assumenda molestiae odit quam unde maxime 
-            aspernatur eveniet veniam similique delectus!
+        <p class="justify">
+            The main parts of a HTML element are:
+
+            <ul class="left-indent">
+                <li>The opening tag: This consists of the name of the element, wrapped in opening and 
+                    closing angle brackets. This states where the element begins or starts to take 
+                    effect — in this case where the start of the paragraph is.
+                </li>
+                <li>
+                    The closing tag: This is the same as the opening tag, except that it includes a forward
+                    slash before the element name. This states where the element ends — in this case where
+                    the end of the paragraph is. Failing to include a closing tag is a common beginner error
+                    and can lead to strange results.
+                </li>
+                <li>
+                    The content: This is the content of the element, which in this case is just text.
+                </li>
+                <li>
+                    The element: The opening tag plus the closing tag plus the content equals the element.
+                </li>
+            </ul>
         </p>
 
         <h1 class="text-main text-large">Video Recommendation</h1>
@@ -60,6 +95,7 @@
         </video>
         <p class="vid-src"> Video courtesy of <a class="vid-src" href="https://www.youtube.com/channel/UCt8Sa48zWN_WcordE7TaUBg" target="_blank">WinningWP</a></p>
 
+        <p>Next, we are going to learn about CSS to style our basic HTML documents.</p>
         <div class="container page-selector">
             <a class="btn btn-dark" href="index.html">Introduction</a>
             <a class="btn btn-dark" href="css.html">Chapter 2: CSS</a>
